@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhivya | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ====== Navigation ====== -->
+  <header>
+    <nav>
+      <h1 class="logo">Dhivya</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ====== Hero Section ====== -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span class="accent">Dhivya</span></h2>
+      <p>English Literature Student & Budding Web Developer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- ====== About ====== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m Dhivya, currently studying English Literature.  
+      I love creative writing and exploring web development.  
+      My goal is to combine storytelling and technology to create meaningful digital experiences.
+    </p>
+  </section>
+
+  <!-- ====== Projects ====== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>Personal Blog</h3>
+        <p>A blog site to share my poems and short stories.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>This responsive portfolio showcasing my work and interests.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Contact ====== -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:dhivya@example.com">dhivya@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com/in/dhivya</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Dhivya. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
